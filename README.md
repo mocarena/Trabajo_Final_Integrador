@@ -1,5 +1,4 @@
-# Trabajo_Final_Integrador 
-## Proyecto de Inventario en Python
+# Proyecto de Inventario en Python
 
 Este es un programa de gestión de inventarios desarrollado en Python utilizando SQLite como base de datos. Permite a los usuarios registrar, actualizar, eliminar y consultar productos de un inventario de manera sencilla y eficiente.
 
@@ -25,40 +24,36 @@ Para poder ejecutar este proyecto, necesitarás tener instalados los siguientes 
 Puedes instalar la librería `colorama` ejecutando el siguiente comando:
 ```bash
 pip install colorama
-```
-## Instalación
 
-- Clona este repositorio a tu máquina local:
+Instalación
+Clona este repositorio a tu máquina local:
+
 git clone https://github.com/tu_usuario/Trabajo_Final_Integrador.git
-- Entra en el directorio del proyecto:
+Entra en el directorio del proyecto:
 cd Trabajo_Final_Integrador
 
-## Instala las dependencias necesarias:
+Instala las dependencias necesarias:
+pip install colorama
+Debes tener un archivo de base de datos SQLite con el nombre inventario.db en la ruta especificada en el código, o modifica el código para ajustar la ruta de la base de datos.
 
-- Instalar colorama
-- Debes tener un archivo de base de datos SQLite con el nombre inventario.db en la ruta especificada en el código, o modifica el código para ajustar la ruta de la base de datos.
-
-## Uso
-
-Ejecutar el programa: simplemente ejecuta el archivo inventario.py:
-```bash
+Uso
+Ejecutar el programa
+Para ejecutar el programa, simplemente ejecuta el archivo inventario.py:
 python inventario.py
-```
 
-## Menú principal
+Menú principal
 Cuando ejecutes el programa, se mostrará un menú con las siguientes opciones:
-- Registrar producto: Permite agregar un nuevo producto al inventario.
-- Mostrar productos: Muestra todos los productos almacenados en la base de datos.
-- Actualizar producto: Permite actualizar la cantidad de un producto específico.
-- Eliminar producto: Permite eliminar un producto de la base de datos.
-- Buscar producto: Permite buscar productos por nombre o categoría.
-- Generar reporte de bajo stock: Muestra los productos con stock bajo según un límite especificado.
-- Salir: Cierra el programa.
+Registrar producto: Permite agregar un nuevo producto al inventario.
+Mostrar productos: Muestra todos los productos almacenados en la base de datos.
+Actualizar producto: Permite actualizar la cantidad de un producto específico.
+Eliminar producto: Permite eliminar un producto de la base de datos.
+Buscar producto: Permite buscar productos por nombre o categoría.
+Generar reporte de bajo stock: Muestra los productos con stock bajo según un límite especificado.
+Salir: Cierra el programa.
 
-## Ejemplo de interacción:
-
+Ejemplo de interacción:
 Menú Principal
-
+------------------------------
 1. Registrar producto
 2. Mostrar productos
 3. Actualizar producto
@@ -66,25 +61,24 @@ Menú Principal
 5. Buscar producto
 6. Generar reporte de bajo stock
 7. Salir
-- Seleccione una opción: 1
-- Nombre del producto: Teclado
-- Descripción: Teclado mecánico
-- Cantidad: 50
-- Precio: 100.0
-- Categoría: Periféricos
-- Producto registrado con éxito.
+Seleccione una opción: 1
+Nombre del producto: Teclado
+Descripción: Teclado mecánico
+Cantidad: 50
+Precio: 100.0
+Categoría: Periféricos
+Producto registrado con éxito.
 
-## Estructura del Proyecto
+Estructura del Proyecto
 La estructura básica del proyecto es la siguiente:
-```
+
 Trabajo_Final_Integrador/
 │
 ├── inventario.py    # Archivo principal con el código del sistema de inventario
 ├── inventario.db    # Base de datos SQLite que almacena los productos
 ├── README.md        # Documento con la documentación del proyecto
-```
+└── requirements.txt # Archivo de dependencias (opcional)
 
-## Licencia
-
+Licencia
 Este proyecto está licenciado bajo la Licencia MIT. 
 
